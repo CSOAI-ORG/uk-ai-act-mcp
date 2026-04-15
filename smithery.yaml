@@ -1,0 +1,34 @@
+name: uk-ai-act-mcp
+description: 'UK AI regulation compliance tools for AI agents. Capabilities: UK risk classification, AISI alignment, EU-UK comparison, readiness assessment, impact assessment. Built by MEOK AI Labs.'
+version: 1.0.0
+tools:
+- name: classify_uk_risk
+  description: Classify AI system risk under UK regulatory framework
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: check_aisi_alignment
+  description: Check alignment with UK AI Safety Institute standards
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: compare_eu_uk
+  description: Compare EU AI Act vs UK regulatory approach
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: assess_readiness
+  description: Assess organizational readiness for UK AI regulation
+  parameters:
+  - name: caller
+    type: string
+    required: false
+- name: generate_impact_assessment
+  description: Generate a UK-specific AI Impact Assessment
+  parameters:
+  - name: caller
+    type: string
+    required: false

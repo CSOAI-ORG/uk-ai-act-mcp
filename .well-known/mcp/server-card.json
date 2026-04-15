@@ -1,0 +1,57 @@
+{
+  "name": "UK AI Regulation Compliance",
+  "description": "By MEOK AI Labs -- First-mover compliance tool for the UK's upcoming AI regulatory framework (expected mid-2026). Classify risk, check AISI alignment, compare EU vs UK approaches, and generate UK-specific impact assessments.",
+  "version": "1.0.0",
+  "protocol_version": "2025-11-25",
+  "publisher": {
+    "name": "MEOK AI Labs",
+    "url": "https://meok.ai",
+    "email": "nicholas@meok.ai"
+  },
+  "repository": "https://github.com/CSOAI-ORG/uk-ai-act-mcp",
+  "license": "MIT",
+  "transport": [
+    "stdio",
+    "streamable-http"
+  ],
+  "authentication": {
+    "type": "api-key",
+    "free_tier": true,
+    "free_limit": "10 calls/day"
+  },
+  "tools": [
+    {
+      "name": "classify_uk_risk",
+      "description": "Classify AI system risk under UK regulatory framework"
+    },
+    {
+      "name": "check_aisi_alignment",
+      "description": "Check alignment with UK AI Safety Institute standards"
+    },
+    {
+      "name": "compare_eu_uk",
+      "description": "Compare EU AI Act vs UK regulatory approach"
+    },
+    {
+      "name": "assess_readiness",
+      "description": "Assess organizational readiness for UK AI regulation"
+    },
+    {
+      "name": "generate_impact_assessment",
+      "description": "Generate a UK-specific AI Impact Assessment"
+    }
+  ],
+  "categories": [
+    "AI & Machine Learning",
+    "Security & Compliance"
+  ],
+  "pricing": {
+    "free": {
+      "calls_per_day": 10
+    },
+    "pro": {
+      "price": "$29/month",
+      "url": "https://meok.ai/pricing"
+    }
+  }
+}
