@@ -1,133 +1,78 @@
-# UK AI Regulation Compliance MCP Server
+# Uk Ai Act MCP
 
-> **By [MEOK AI Labs](https://meok.ai)** -- Sovereign AI tools for everyone.
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/uk_ai_act_mcp/)
 
-First-mover compliance tool for the UK's upcoming AI regulatory framework (expected mid-2026). Classify risk under the UK approach, check AISI alignment, compare EU vs UK regulation, assess organizational readiness, and generate UK-specific AI Impact Assessments.
+> UK AI Bill compliance MCP — AI regulation tracking, risk classification, impact assessment for UK...
 
-[![MCPize](https://img.shields.io/badge/MCPize-Listed-blue)](https://mcpize.com/mcp/uk-ai-act)
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
+UK AI Bill compliance MCP — AI regulation tracking, risk classification, impact assessment for UK-deployed AI systems.
 
-## Features
+---
 
-- UK-specific risk classification (Unacceptable, High, Limited, Minimal)
-- AI Safety Institute (AISI) alignment scoring across 8 weighted principles
-- EU AI Act vs UK framework comparison across 8 regulatory dimensions
-- Organizational readiness assessment with priority-ranked checklist
-- AI Impact Assessment (AIA) document generation with 7 structured sections
-- Automatic sector-specific regulator mapping (FCA, ICO, Ofcom, MHRA, CMA, etc.)
-- Built-in rate limiting (10 free/day) and API key authentication
-
-## Tools
-
-| Tool | Description |
-|------|-------------|
-| `classify_uk_risk` | Classify AI system risk under UK framework -- detects unacceptable uses, high-risk sectors, transparency obligations |
-| `check_aisi_alignment` | Check alignment with AISI standards across 8 principles: safety, transparency, accountability, fairness, privacy, security, contestability, oversight |
-| `compare_eu_uk` | Compare EU AI Act vs UK approach across 8 dimensions: regulation, risk, enforcement, scope, conformity, timeline, sandboxes, GPAI |
-| `assess_readiness` | Assess organizational readiness -- AI inventory, risk assessment, governance, DPIA, bias testing, transparency, incident response, training |
-| `generate_impact_assessment` | Generate a UK-specific AI Impact Assessment covering system overview, data processing, rights, safety, transparency, oversight, monitoring |
-
-## UK Regulatory Framework Coverage
-
-### Risk Categories
-| Category | Outcome | Examples |
-|----------|---------|----------|
-| Unacceptable | PROHIBITED | Social scoring, subliminal manipulation, mass surveillance |
-| High | Requirements apply | Critical infrastructure, healthcare, employment, law enforcement |
-| Limited | Transparency obligations | Chatbots, deepfakes, emotion recognition, AI-generated content |
-| Minimal | Voluntary codes | Spam filters, AI games, inventory management |
-
-### AISI Principles
-| Principle | Weight |
-|-----------|--------|
-| Pre-deployment Safety Testing | 10 |
-| Transparency and Explainability | 9 |
-| Accountability Mechanisms | 9 |
-| Data Protection and Privacy | 9 |
-| Security and Resilience | 9 |
-| Fairness and Non-Discrimination | 8 |
-| Human Oversight and Control | 8 |
-| Contestability and Redress | 7 |
-
-## Quick Start
+## 🚀 Quick Start
 
 ```bash
-pip install mcp
-git clone https://github.com/CSOAI-ORG/uk-ai-act-mcp.git
-cd uk-ai-act-mcp
-python server.py
+# Install via pip
+pip install uk_ai_act_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install uk-ai-act-mcp --client claude
 ```
 
-## Claude Desktop Config
+## ✨ Features
 
-```json
-{
-  "mcpServers": {
-    "uk-ai-act": {
-      "command": "python",
-      "args": ["server.py"],
-      "cwd": "/path/to/uk-ai-act-mcp"
-    }
-  }
-}
-```
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Usage Examples
+## 📖 Documentation
 
-```python
-# Classify UK risk level
-result = classify_uk_risk(
-    system_description="AI-powered recruitment screening tool",
-    sector="employment",
-    makes_autonomous_decisions=True,
-    affects_individuals=True
-)
+- [Full Documentation](https://docs.meok.ai/uk-ai-act-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-# Check AISI alignment
-result = check_aisi_alignment(
-    system_name="RecruitAI",
-    has_safety_testing=True,
-    has_transparency_docs=True,
-    has_fairness_testing=True,
-    has_human_oversight=True
-)
+## 🛡️ Compliance
 
-# Compare EU vs UK approach
-result = compare_eu_uk(aspect="enforcement")
+This MCP server is built with **EU AI Act compliance** built-in:
 
-# Assess organizational readiness
-result = assess_readiness(
-    organization_name="TechCorp UK",
-    has_ai_inventory=True,
-    has_risk_assessment=True,
-    has_governance_framework=True,
-    sector="financial"
-)
-```
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-## Regulatory References
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-- UK GDPR (UK General Data Protection Regulation)
-- Equality Act 2010
-- Human Rights Act 1998
-- AISI Safety Evaluation Framework
-- ICO AI and Data Protection Guidance
-- CDEI/DSIT AI Regulation White Paper (2023)
+## 🏢 Enterprise
 
-## Pricing
+Need custom development, SLA guarantees, or white-label deployment?
 
-| Plan | Price | Requests |
-|------|-------|----------|
-| Free | $0/mo | 10 requests/day |
-| Pro | $29/mo | Unlimited |
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-## Authentication
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-Set `MEOK_API_KEY` environment variable. Get your key at [meok.ai/api-keys](https://meok.ai/api-keys).
+## 🤝 Part of the MEOK Ecosystem
 
-## Links
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-- [MEOK AI Labs](https://meok.ai)
-- [All MCP Servers](https://meok.ai/mcp)
-- [GitHub](https://github.com/CSOAI-ORG/uk-ai-act-mcp)
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
