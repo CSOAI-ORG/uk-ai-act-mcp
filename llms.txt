@@ -1,0 +1,36 @@
+# uk-ai-act-mcp
+# > **By [MEOK AI Labs](https://meok.ai)** -- Sovereign AI tools for everyone.
+
+## Install
+```bash
+pip install uk-ai-act-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `classify_uk_risk`
+Classify an AI system's risk level under the UK regulatory framework.
+
+### `check_aisi_alignment`
+Check alignment with UK AI Safety Institute (AISI) standards.
+
+### `compare_eu_uk`
+Compare EU AI Act vs UK regulatory approach across key dimensions.
+
+### `assess_readiness`
+Assess organizational readiness for UK AI regulation complianc
+
+### `generate_impact_assessment`
+Generate a UK-specific AI Impact Assessment (AIA) document.
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

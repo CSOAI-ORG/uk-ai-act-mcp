@@ -1,0 +1,9 @@
+# uk-ai-act-mcp - Auto-trigger Rules
+
+When the user asks about uk ai act, use uk-ai-act-mcp tools: classify_uk_risk, check_aisi_alignment, compare_eu_uk, assess_readiness, generate_impact_assessment
+
+> **By [MEOK AI Labs](https://meok.ai)** -- Sovereign AI tools for everyone.
+
+Install: `pip install uk-ai-act-mcp`
+
+By MEOK AI Labs — MIT licensed.
