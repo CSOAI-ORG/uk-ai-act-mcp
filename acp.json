@@ -1,0 +1,23 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "uk-ai-act-mcp",
+    "description": "UK AI regulation compliance tools for AI agents. Capabilities: UK risk classification, AISI",
+    "version": "1.0.4",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "uk-ai-act-mcp"
+      }
+    ],
+    "capabilities": [
+      "classify_uk_risk",
+      "check_aisi_alignment",
+      "compare_eu_uk",
+      "assess_readiness",
+      "generate_impact_assessment"
+    ]
+  }
+}
